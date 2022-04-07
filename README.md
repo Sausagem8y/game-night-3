@@ -1,10 +1,70 @@
-# game-night-3
+# Getting Started with Create React App
 
-Currently the project can create a character with key value pairs for all of row 1, where majority of the data is.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-  I ran into some strange issues along the way, I can't get it to connect to localhost but it seems to connect to my api without any issues.
-for some reason when i tried to import mongoose it broke the code so instead i used the fetch API for all the request buttons. Im still having trouble with dynamically changing the values of any character traits dynamically, at the moment it only accepts hard-coded updates (changes the acrobatics value to be 17) and any changes to the api or requests made to it go through the console.
+## Available Scripts
 
-  I added a useEffect that loads the array of char objects in the console whenever the page loads, use the ID's from the console to use the request buttons on the bottom. The  button on the far right is the submit button attached to row 3 but at the moment the form submission is handled by the "create new character" button at the top of row 1. Not sure why but when the form submits from the row 1 button it runs the submit handle function properly but when the form is submitted from elsewhere it doesent prevent default. It likely has something to do with how I tired writing each component as a form and they dont end up combining into one in the app.js file like i intended.
+In the project directory, you can run:
 
-  I'm going to keep coming back to this project with anything i learn in future courses and continue to improve it, but for now it finally works enough to be used.
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -1,0 +1,61 @@
+.s-p-e-c-i-a-l {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: rgb(37, 37, 32);
+  font-size: 21px;
+  border: 2px groove rgba(0, 0, 0, 0.459);
+  margin: 7px;
+}
+
+.second-header {
+  display: flex;
+  flex-direction: column;
+  border: 2px groove rgba(0, 0, 0, 0.623);
+  width: 600px;
+}
+
+.ins-pro {
+  border: 2px groove rgba(0, 0, 0, 0.459);
+  margin: 7px;
+}
+
+.saving-throws {
+  border: 2px groove rgba(0, 0, 0, 0.459);
+  margin: 7px;
+}
+
+.skills {
+  border: 2px groove rgba(0, 0, 0, 0.459);
+  margin: 7px;
+}
+
+.row-1-side-by-side {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.better-boxes {
+  border-radius: 8px;
+  width: 30px;
+}
+
+.special-boxes {
+  width: 45px;
+  height: 80px;
+  margin-left: 20px;
+  padding-left: 35px;
+  border-radius: 25px;
+  font-size: larger;
+}
+
+.the-border {
+  border: 2px groove rgba(0, 0, 0, 0.459);
+  margin: 7px;
+}
+
+.others-and-languages {
+  display: flex;
+  width: 75px;
+}

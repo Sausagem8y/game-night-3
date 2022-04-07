@@ -1,0 +1,69 @@
+.row-2 {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.smaller-icons {
+  width: 25px;
+}
+
+.smaller-icons-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 2px groove rgba(0, 0, 0, 0.459);
+  margin: 7px;
+  height: 35px;
+}
+
+.wide-rectangles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px groove rgba(0, 0, 0, 0.459);
+  margin: 7px;
+}
+
+.small-rectangles {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+}
+
+.the-border {
+  border: 2px groove rgba(0, 0, 0, 0.459);
+  margin: 7px;
+}
+
+.better-boxes {
+  border-radius: 8px;
+  width: 30px;
+}
+
+.checks {
+  border: 2px groove rgba(0, 0, 0, 0.459);
+  margin: 7px;
+}
+
+.large-square {
+  border: 2px groove rgba(0, 0, 0, 0.459);
+  margin: 7px;
+  display: flex;
+  flex-direction: column;
+}
+
+.name-atk-dmg {
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+}
+
+.smaller-inputs {
+  width: 125px;
+}
+
+.big-boy {
+  height: 400px;
+}
